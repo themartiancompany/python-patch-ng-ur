@@ -118,6 +118,11 @@ sha256sums=(
 md5sums=(
   '5df1f6f28b8fcf09bc4dfd182caa12d8'
 )
+validpgpkeys=(
+  # Pellegrino Prevete (dvorak)
+  #   <dvorak@0x87003Bd6C074C713783df04f36517451fF34CBEf>
+  '12D8E3D7888F741E89F86EE0FEC8567A644F1D16'
+)
 
 build() {
   cd \
