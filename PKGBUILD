@@ -110,15 +110,10 @@ fi
 fi
 source=(
   "${_src}"
-)
-sha256sums=(
-  "${_archive_sum}"
-)
-source=(
-  "${_src}"
   # "https://raw.githubusercontent.com/${_ns}/${pkgname}/${pkgver}/LICENSE"
 )
 sha256sums=(
+  "${_archive_sum}"
 )
 md5sums=(
   '5df1f6f28b8fcf09bc4dfd182caa12d8'
